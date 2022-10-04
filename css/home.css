@@ -1,0 +1,51 @@
+#app{
+    background: linear-gradient(120deg, #ffffff 44.9%, #4c78d3 45%) no-repeat, fixed;
+}
+header{
+    border-bottom: 1px solid #bebcbc;
+    background-color: var(--color-secundary);
+}
+.house-icon{
+    color: var(--color-primary);
+}
+.cash-icon{
+    color: var(--color-terciary);
+    font-size: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.btn-default{
+    width: 10%;
+    padding: 6px 0px;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    letter-spacing: 1px;
+    color: var(--color-text);
+    background-color: var(--color-tertiary);
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00000056;
+    transition: 0.4s;
+}
+.btn-default:hover{
+    background-color: rgb(59, 95, 167);
+    color: var(--color-text);
+    transition: 0.4s;
+    border-radius: 50px 10px; 
+}
+.info{
+    background-color: var(--color-secundary);
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px 0px 0px;
+}
+
+/*Responsividade*/
+@media only screen and (max-width: 600px){
+    .small-coins{
+        display: none;
+    }
+   .btn-default{
+        width: 30%;
+   }
+}

@@ -2,7 +2,7 @@
     background: linear-gradient(120deg, #4c78d3 44.9%, #ffffff 45%) no-repeat, fixed;
 }
 .text-login{
-    color: #ffffff;
+    color: var(--color-text);
     font-size: 16px;
     font-weight: bold;
     font-family: 'DM Sans', sans-serif;;
@@ -20,30 +20,30 @@
     border-radius: 10px;
     outline: none;
     letter-spacing: 1px;
-    color: #ffffff;
-    background-color: #4e0070;
+    color: var(--color-text);
+    background-color: var(--color-tertiary);
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00000056;
     transition: 0.4s;
 }
 .button-login:hover{
-    background-color: #4c78d3;
-    color: #ffffff;
+    background-color: var(--color-primary);
+    color: var(--color-text);
     transition: 0.4s;
     border-radius: 50px 10px; 
 }
 .link-default{
-    color: #4e0070;
+    color: var(--color-tertiary);
     cursor: pointer;
 }
 .link-default:hover{
-    color: #4c78d3;
+    color: var(--color-primary);
 }
 
 /*Responsividade*/
 @media only screen and (max-width: 600px){
     #login{
-        background: #ffffff;
+        background:  var(--color-secundary);
     }
 }
 
